@@ -1,0 +1,16 @@
+PODS:
+  - FCXRefresh (0.1.4)
+
+DEPENDENCIES:
+  - FCXRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FCXRefresh
+
+SPEC CHECKSUMS:
+  FCXRefresh: fdcfff9c09528b65a08f5c4a82f358c9da5f252b
+
+PODFILE CHECKSUM: 731f9d0ced1d2ca7d78750dff975da749f58ebe4
+
+COCOAPODS: 1.7.5

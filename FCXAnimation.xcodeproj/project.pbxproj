@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195493A92328CF840022DD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493A82328CF840022DD1F /* AppDelegate.m */; };
+		195493AF2328CF840022DD1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195493AD2328CF840022DD1F /* Main.storyboard */; };
+		195493B12328CF860022DD1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195493B02328CF860022DD1F /* Assets.xcassets */; };
+		195493B42328CF860022DD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195493B22328CF860022DD1F /* LaunchScreen.storyboard */; };
+		195493B72328CF860022DD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493B62328CF860022DD1F /* main.m */; };
+		195493C32328D1930022DD1F /* FCXDotRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493C22328D1930022DD1F /* FCXDotRotationAnimation.m */; };
+		195493C62328D29D0022DD1F /* FCXSimpleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493C52328D29D0022DD1F /* FCXSimpleAnimationController.m */; };
+		195493C92328D5920022DD1F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493C82328D5920022DD1F /* HomeViewController.m */; };
+		195493CC2328DAAC0022DD1F /* FCXDotLinePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493CB2328DAAC0022DD1F /* FCXDotLinePathAnimation.m */; };
+		195493CF2328DBB60022DD1F /* FCXPullRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493CE2328DBB60022DD1F /* FCXPullRefreshController.m */; };
+		195493D22328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195493D12328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.m */; };
+		304F738ADDFAD18DC0EFCE2C /* libPods-FCXAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 576EB3EB71509E4A212EAEB6 /* libPods-FCXAnimation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		195493A42328CF840022DD1F /* FCXAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCXAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195493A72328CF840022DD1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		195493A82328CF840022DD1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		195493AE2328CF840022DD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		195493B02328CF860022DD1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195493B32328CF860022DD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195493B52328CF860022DD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195493B62328CF860022DD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		195493C12328D1930022DD1F /* FCXDotRotationAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCXDotRotationAnimation.h; sourceTree = "<group>"; };
+		195493C22328D1930022DD1F /* FCXDotRotationAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCXDotRotationAnimation.m; sourceTree = "<group>"; };
+		195493C42328D29D0022DD1F /* FCXSimpleAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCXSimpleAnimationController.h; sourceTree = "<group>"; };
+		195493C52328D29D0022DD1F /* FCXSimpleAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCXSimpleAnimationController.m; sourceTree = "<group>"; };
+		195493C72328D5920022DD1F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		195493C82328D5920022DD1F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		195493CA2328DAAC0022DD1F /* FCXDotLinePathAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCXDotLinePathAnimation.h; sourceTree = "<group>"; };
+		195493CB2328DAAC0022DD1F /* FCXDotLinePathAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCXDotLinePathAnimation.m; sourceTree = "<group>"; };
+		195493CD2328DBB60022DD1F /* FCXPullRefreshController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCXPullRefreshController.h; sourceTree = "<group>"; };
+		195493CE2328DBB60022DD1F /* FCXPullRefreshController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCXPullRefreshController.m; sourceTree = "<group>"; };
+		195493D02328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCXDotLineAnimationRefreshHeaderView.h; sourceTree = "<group>"; };
+		195493D12328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCXDotLineAnimationRefreshHeaderView.m; sourceTree = "<group>"; };
+		326AD27475370A283A1EF4C3 /* Pods-FCXAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCXAnimation.release.xcconfig"; path = "Target Support Files/Pods-FCXAnimation/Pods-FCXAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		3E6ADF918109B9EC1B5E1CCD /* Pods-FCXAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCXAnimation.debug.xcconfig"; path = "Target Support Files/Pods-FCXAnimation/Pods-FCXAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		576EB3EB71509E4A212EAEB6 /* libPods-FCXAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FCXAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195493A12328CF840022DD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304F738ADDFAD18DC0EFCE2C /* libPods-FCXAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1954939B2328CF840022DD1F = {
+			isa = PBXGroup;
+			children = (
+				195493A62328CF840022DD1F /* FCXAnimation */,
+				195493A52328CF840022DD1F /* Products */,
+				EFDA11B01818DEB5F8FA4AA4 /* Pods */,
+				478FD38E391265D89A24EC7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		195493A52328CF840022DD1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195493A42328CF840022DD1F /* FCXAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195493A62328CF840022DD1F /* FCXAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				195493A72328CF840022DD1F /* AppDelegate.h */,
+				195493A82328CF840022DD1F /* AppDelegate.m */,
+				195493C72328D5920022DD1F /* HomeViewController.h */,
+				195493C82328D5920022DD1F /* HomeViewController.m */,
+				195493C42328D29D0022DD1F /* FCXSimpleAnimationController.h */,
+				195493C52328D29D0022DD1F /* FCXSimpleAnimationController.m */,
+				195493CD2328DBB60022DD1F /* FCXPullRefreshController.h */,
+				195493CE2328DBB60022DD1F /* FCXPullRefreshController.m */,
+				195493D02328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.h */,
+				195493D12328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.m */,
+				195493C02328D0E60022DD1F /* FCXAnimation */,
+				195493AD2328CF840022DD1F /* Main.storyboard */,
+				195493B02328CF860022DD1F /* Assets.xcassets */,
+				195493B22328CF860022DD1F /* LaunchScreen.storyboard */,
+				195493B52328CF860022DD1F /* Info.plist */,
+				195493B62328CF860022DD1F /* main.m */,
+			);
+			path = FCXAnimation;
+			sourceTree = "<group>";
+		};
+		195493C02328D0E60022DD1F /* FCXAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				195493C12328D1930022DD1F /* FCXDotRotationAnimation.h */,
+				195493C22328D1930022DD1F /* FCXDotRotationAnimation.m */,
+				195493CA2328DAAC0022DD1F /* FCXDotLinePathAnimation.h */,
+				195493CB2328DAAC0022DD1F /* FCXDotLinePathAnimation.m */,
+			);
+			path = FCXAnimation;
+			sourceTree = "<group>";
+		};
+		478FD38E391265D89A24EC7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576EB3EB71509E4A212EAEB6 /* libPods-FCXAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDA11B01818DEB5F8FA4AA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E6ADF918109B9EC1B5E1CCD /* Pods-FCXAnimation.debug.xcconfig */,
+				326AD27475370A283A1EF4C3 /* Pods-FCXAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195493A32328CF840022DD1F /* FCXAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195493BA2328CF860022DD1F /* Build configuration list for PBXNativeTarget "FCXAnimation" */;
+			buildPhases = (
+				53D25C6CA537F02135EABCE9 /* [CP] Check Pods Manifest.lock */,
+				195493A02328CF840022DD1F /* Sources */,
+				195493A12328CF840022DD1F /* Frameworks */,
+				195493A22328CF840022DD1F /* Resources */,
+				EC9BAC7C273A7F759FFDC547 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCXAnimation;
+			productName = FCXAnimation;
+			productReference = 195493A42328CF840022DD1F /* FCXAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1954939C2328CF840022DD1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = fcx;
+				TargetAttributes = {
+					195493A32328CF840022DD1F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 1954939F2328CF840022DD1F /* Build configuration list for PBXProject "FCXAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1954939B2328CF840022DD1F;
+			productRefGroup = 195493A52328CF840022DD1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195493A32328CF840022DD1F /* FCXAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195493A22328CF840022DD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195493B42328CF860022DD1F /* LaunchScreen.storyboard in Resources */,
+				195493B12328CF860022DD1F /* Assets.xcassets in Resources */,
+				195493AF2328CF840022DD1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53D25C6CA537F02135EABCE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FCXAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9BAC7C273A7F759FFDC547 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCXAnimation/Pods-FCXAnimation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCXAnimation/Pods-FCXAnimation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FCXAnimation/Pods-FCXAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195493A02328CF840022DD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195493C62328D29D0022DD1F /* FCXSimpleAnimationController.m in Sources */,
+				195493CC2328DAAC0022DD1F /* FCXDotLinePathAnimation.m in Sources */,
+				195493C32328D1930022DD1F /* FCXDotRotationAnimation.m in Sources */,
+				195493CF2328DBB60022DD1F /* FCXPullRefreshController.m in Sources */,
+				195493D22328DE000022DD1F /* FCXDotLineAnimationRefreshHeaderView.m in Sources */,
+				195493B72328CF860022DD1F /* main.m in Sources */,
+				195493A92328CF840022DD1F /* AppDelegate.m in Sources */,
+				195493C92328D5920022DD1F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		195493AD2328CF840022DD1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195493AE2328CF840022DD1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		195493B22328CF860022DD1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195493B32328CF860022DD1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195493B82328CF860022DD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		195493B92328CF860022DD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195493BB2328CF860022DD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6ADF918109B9EC1B5E1CCD /* Pods-FCXAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5S25J9BX6;
+				INFOPLIST_FILE = FCXAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shark.FCXAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195493BC2328CF860022DD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326AD27475370A283A1EF4C3 /* Pods-FCXAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5S25J9BX6;
+				INFOPLIST_FILE = FCXAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shark.FCXAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1954939F2328CF840022DD1F /* Build configuration list for PBXProject "FCXAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195493B82328CF860022DD1F /* Debug */,
+				195493B92328CF860022DD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195493BA2328CF860022DD1F /* Build configuration list for PBXNativeTarget "FCXAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195493BB2328CF860022DD1F /* Debug */,
+				195493BC2328CF860022DD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1954939C2328CF840022DD1F /* Project object */;
+}
